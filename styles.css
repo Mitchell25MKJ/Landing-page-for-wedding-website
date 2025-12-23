@@ -1,0 +1,45 @@
+.container{
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+    height: 100vh;
+}
+
+.navbar{
+    border: 3px solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.navlinks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-family: dancing script;
+    font-size: 20px;
+}
+
+.navbar-grid{
+    grid-area: 1/1/6/1;
+}
+
+.web-icon img{
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.navlinks hr{
+    margin-left: 0px;
+    margin-right: 0px;
+}
