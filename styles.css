@@ -35,6 +35,7 @@
 }
 
 .web-icon img{
+    margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 50%;
 }
@@ -42,4 +43,25 @@
 .navlinks hr{
     margin-left: 0px;
     margin-right: 0px;
+}
+
+.banner{
+    border: 3px solid;
+    font-family: dancing script;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner p{
+    margin-top: 0px;
+}
+
+.banner h1{
+    margin-bottom: 3px;
+}
+
+.banner-grid{
+    grid-area: 1/2/1/6;
 }
