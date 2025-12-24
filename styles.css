@@ -6,8 +6,10 @@
     height: 100vh;
 }
 
+body{
+    background-color: #F0E4D3;;
+}
 .navbar{
-    border: 3px solid;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -46,13 +48,11 @@
 }
 
 .banner{
-    border: 3px solid;
     font-family: dancing script;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    min-width: 400px;
 }
 
 .banner p{
@@ -67,12 +67,12 @@
     grid-area: 1/2/1/6;
 }
 
-.picflex{
-    margin-top: 10px;
-    margin-left: 10px;
+.picflex img{
+    border: 3px solid;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.pic4{
-    border: 3px solid;
-    width: auto;
+.picflex{
+   margin-right: 15px;
 }
